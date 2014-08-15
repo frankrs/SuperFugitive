@@ -24,23 +24,113 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 175
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: johnnyF01_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1059
+        width: 206
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1159
+        width: 356
+        height: 218
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1057
+        width: 230
+        height: 332
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_3
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1081
+        width: 387
+        height: 278
+      alignment: 9
+      pivot: {x: .5, y: .564696372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 497
+        width: 201
+        height: 324
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 737
+        width: 292
+        height: 318
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_6
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 479
+        width: 172
+        height: 372
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_7
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 291
+        width: 259
+        height: 371
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: johnnyF01_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 27
+        width: 363
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
