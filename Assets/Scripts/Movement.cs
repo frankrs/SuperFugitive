@@ -65,6 +65,7 @@ public class Movement : MonoBehaviour {
 	IEnumerator Jump (){
 		var t = speedSettings.jumpTime;
 		speedSettings.gravity = 0;
+		anim.SetBool("Jump",true);
 		while(t > 0 && userInput.jB){
 			speedSettings.gravity = speedSettings.gravity + (Time.deltaTime * speedSettings.gravityMult);
 			t = t-Time.deltaTime;
@@ -74,6 +75,7 @@ public class Movement : MonoBehaviour {
 			speedSettings.gravity = speedSettings.gravity - (Time.deltaTime * speedSettings.gravityMult);
 			yield return null;
 		}
+		anim.SetBool("Jump",false);
 		speedSettings.gravity = -10;
 	}
 
