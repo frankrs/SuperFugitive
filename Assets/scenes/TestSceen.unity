@@ -1466,7 +1466,6 @@ GameObject:
   - 4: {fileID: 351355999}
   - 212: {fileID: 351355998}
   - 61: {fileID: 351355997}
-  - 61: {fileID: 351355996}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -1474,17 +1473,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &351355996
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 351355995}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!61 &351355997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1876,7 +1864,6 @@ GameObject:
   - 4: {fileID: 372692467}
   - 212: {fileID: 372692466}
   - 61: {fileID: 372692465}
-  - 61: {fileID: 372692468}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -1929,17 +1916,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
---- !u!61 &372692468
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 372692464}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!1 &379031993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,6 +3148,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 47
+--- !u!1001 &630130974
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 25.3972797
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .499999762
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_RootMapOrder
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+      propertyPath: m_RootOrder
+      value: 81
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+  m_RootGameObject: {fileID: 1453931591}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &663783989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3928,7 +3952,6 @@ GameObject:
   - 4: {fileID: 812296673}
   - 212: {fileID: 812296672}
   - 61: {fileID: 812296671}
-  - 61: {fileID: 812296670}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -3936,17 +3959,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &812296670
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812296669}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!61 &812296671
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6678,7 +6690,6 @@ GameObject:
   - 4: {fileID: 1285207357}
   - 212: {fileID: 1285207356}
   - 61: {fileID: 1285207355}
-  - 61: {fileID: 1285207358}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -6731,17 +6742,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
---- !u!61 &1285207358
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1285207354}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!1 &1285581789
 GameObject:
   m_ObjectHideFlags: 0
@@ -7316,7 +7316,6 @@ GameObject:
   - 4: {fileID: 1389580602}
   - 212: {fileID: 1389580601}
   - 61: {fileID: 1389580600}
-  - 61: {fileID: 1389580599}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -7324,17 +7323,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1389580599
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1389580598}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!61 &1389580600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7716,8 +7704,8 @@ Transform:
 --- !u!1 &1453931591
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 100000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+  m_PrefabInternal: {fileID: 630130974}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1453931594}
@@ -7733,8 +7721,9 @@ GameObject:
 --- !u!61 &1453931592
 BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 6100000, guid: 70218915aa4b1204b94ae988c8056903,
+    type: 2}
+  m_PrefabInternal: {fileID: 630130974}
   m_GameObject: {fileID: 1453931591}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -7744,8 +7733,9 @@ BoxCollider2D:
 --- !u!212 &1453931593
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 21200000, guid: 70218915aa4b1204b94ae988c8056903,
+    type: 2}
+  m_PrefabInternal: {fileID: 630130974}
   m_GameObject: {fileID: 1453931591}
   m_Enabled: 1
   m_CastShadows: 0
@@ -7766,8 +7756,8 @@ SpriteRenderer:
 --- !u!4 &1453931594
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 400000, guid: 70218915aa4b1204b94ae988c8056903, type: 2}
+  m_PrefabInternal: {fileID: 630130974}
   m_GameObject: {fileID: 1453931591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25.3972797, y: .499999762, z: 0}
@@ -9499,7 +9489,6 @@ GameObject:
   - 4: {fileID: 1898950064}
   - 212: {fileID: 1898950063}
   - 61: {fileID: 1898950062}
-  - 61: {fileID: 1898950061}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -9507,17 +9496,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1898950061
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1898950060}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!61 &1898950062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10357,7 +10335,6 @@ GameObject:
   - 4: {fileID: 2049349119}
   - 212: {fileID: 2049349118}
   - 61: {fileID: 2049349117}
-  - 61: {fileID: 2049349116}
   m_Layer: 0
   m_Name: sidewalk
   m_TagString: Untagged
@@ -10365,17 +10342,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &2049349116
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2049349115}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!61 &2049349117
 BoxCollider2D:
   m_ObjectHideFlags: 0
