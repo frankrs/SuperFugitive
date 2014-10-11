@@ -24,7 +24,11 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
     filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> origin/master
 =======
     filterMode: 0
 >>>>>>> origin/master
